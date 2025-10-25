@@ -39,8 +39,8 @@ html
 body
 {
     font-family: 'Poppins', sans-serif;
-    min-height: 100svh;
     min-height: 100vh;
+    min-height: 100svh;
     display: grid;
     place-items: center;
     padding: 1rem;
@@ -60,10 +60,6 @@ html:has(body[gen-menu-modal-is-dragging="true"])
     overscroll-behavior: none none !important;
     touch-action: none !important;
     scroll-behavior: auto;
-}
-
-html:has(body[data-modal-state="open"])
-{
     overflow: hidden !important;
 }
 
